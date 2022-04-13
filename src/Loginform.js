@@ -184,7 +184,7 @@ function Loginform() {
             </div>
           </div>
           {/* footer */}
-          <hr className=""></hr>
+          <hr className="line-break"></hr>
           <div className="d-flex justify-content-center m-5 fs-4">
             New user?{" "}
             <a className="text-danger text-decoration-none">

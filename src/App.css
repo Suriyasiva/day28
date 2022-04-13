@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-fluid {
+  /* height: 120vh; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  width: 1300px;
+  height: 100%;
+  border-radius: 5px;
+}
+/* logo */
+.img-fluid {
+  width: 150px;
+  height: 150px;
+}
+.twitter {
+  color: #fff;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  margin: 5px;
+}
+.twitter:hover {
+  background-color: #fff;
+  color: #1da1f2;
 }
 
-.App-link {
-  color: #61dafb;
+.facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+  margin: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.facebook:hover {
+  background-color: #fff;
+  color: #3b5998;
+}
+.google {
+  color: #fff;
+  background-color: #ea4335;
+  border-color: #ea4335;
+  margin: 5px;
+}
+.google:hover {
+  background-color: #fff;
+  color: #ea4335;
+}
+.github {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+  margin: 5px;
+}
+.github:hover {
+  color: #333;
+  background: #fff;
+}
+.formik-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.formik {
+  width: 50%;
+}
+.form-control {
+  border: none !important;
+  background-color: #eef2f8;
+}
+/* .icon-email {
+  position: absolute;
+  top: 534px;
+  left: 1175px;
+}
+.icon-password {
+  position: absolute;
+  top: 614px;
+  left: 1175px;
+} */
+.email {
+  position: relative;
+}
+.icon-email {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+.password {
+  position: relative;
+}
+.icon-password {
+  position: absolute;
+  top: 43px;
+  right: 20px;
 }
